@@ -1,7 +1,7 @@
 import random
 
 player = input('player：')
-computer = random.randint(1,3)
+computer = random.randint(1, 3)
 
 if player == '石头':
     a = 1

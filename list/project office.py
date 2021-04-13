@@ -13,7 +13,7 @@ print(office)
 i = 1
 
 for office_name in office:
-    print("办公室%d人数为%d,老师分别是:" % (i,len(office_name)))
+    print("办公室%d人数为%d,老师分别是:" % (i, len(office_name)))
     for name in office_name:
         print(name, end=' ')
     print('\n')
